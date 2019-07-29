@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.top-nav {
+    margin-top: 20px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+.top-nav .user{
+    background: rgb(72, 133, 237);
+    color: white;
+    border: 0px;
+    font-size: 13px;
+}
+.nav-items {
+    float:right;
+    margin: 0.4em;
+    text-decoration: none;    
+}
+#google-logo {
+    display:block;
+    margin: 100px auto 30px auto;
+    height: 100px;
+    width: 300px;    
+}
+#search-input {
+    margin-left: 35%;
+    padding-left: 20px;
+    height: 50px;
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 34px;
+    outline: none;
+}
+#search-input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+#search-input:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.button {
+    display: inline-block;
+    margin: 40px 4px 0 4px;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    color: #222;
+}
+.search-button {
+    margin-left: 43%;
+}
+.offered-in{
+    margin: 25px 0 0 45%;
+}
+.offered-in a{
+    text-decoration: none;
+}
+.footer-location {
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    bottom: 57px;
+    width: 100%;
+    position: fixed;
+}
+.footer-location p{
+    margin-left: 10px;
+}
+.footer {
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.footer a{
+    margin:10px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer-nav .privacy,.terms, .settings{
+    float: right;
+}
